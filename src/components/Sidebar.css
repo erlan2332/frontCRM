@@ -1,0 +1,112 @@
+/* Сам контейнер сайдбара */
+.sidebar {
+  width: 220px;
+  background-color: #E2E8F0; 
+  border-radius: 12px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 800px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+/* Верхняя часть (логотип + меню) */
+.sidebar-top {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Логотип / Название компании */
+.logo {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center; 
+  margin-bottom: 2rem;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+/* Меню */
+.navBar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Каждый <li> внутри меню */
+.navBar li {
+  margin-bottom: 30px; 
+}
+
+/* Ссылка-NavLink (вид кнопки) */
+.menu_button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  text-decoration: none;  
+  cursor: pointer;
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  height: 54px;
+  padding: 0 12px; 
+  border-radius: 12px;
+  transition: background-color 0.2s;
+}
+
+/* Эффект при наведении */
+.menu_button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 200px;
+}
+
+/* Иконка */
+.menu_icon {
+  width: 24px;       
+  height: 24px;      
+  margin-right: 8px; 
+}
+
+/* Активная ссылка (NavLink) - тёмный фон, белый текст.
+   Убираем width/height, чтобы не изменялся размер */
+.active_menu {
+  width: 200px;
+  background-color: #2D3748;
+  color: #fff;
+  border-radius: 12px;
+}
+
+/* Нижняя часть (карточка пользователя) */
+.sidebar-user {
+  display: flex;
+  justify-content: center;
+}
+
+.user-button {
+  display: flex;
+  width: 220px;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* Текст + иконка стрелочки */
+.user-button span {
+  margin-right: 8px;
+  color: #2D3748;
+  font-weight: bold; 
+}
+
+.arrow_icon {
+  width: 16px;
+  height: 16px;
+}

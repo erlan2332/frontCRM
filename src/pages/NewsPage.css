@@ -1,0 +1,137 @@
+.news-container {
+    padding: 1.5rem;
+  }
+  
+  .news-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .news-actions {
+    margin-bottom: 1rem;
+  }
+  
+  .news-button {
+    background-color: #007AFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+
+  .news-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .news-table thead {
+    background-color: #F9FAFB;
+    text-align: left;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+  .news-table th,
+  .news-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #E0E0E0;
+  }
+  
+
+  .status-label {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    background-color: #43C432;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  .type-label {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  .type-news {
+    background-color: #007AFF;
+  }
+  .type-story {
+    background-color: #43C432;
+  }
+  
+  .delete-button {
+    background-color: #E0E0E0; 
+    color: #6E6E6E;
+    border: none;
+    padding: 0.3rem 0.6rem;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .save-button {
+    background-color: #007AFF;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-button {
+    background-color: #E0E0E0;
+    color: #6E6E6E;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

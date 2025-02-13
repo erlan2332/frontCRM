@@ -1,0 +1,94 @@
+.cars-container {
+    padding: 1.5rem;
+  }
+  
+  .cars-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .search-box {
+    margin-bottom: 1rem;
+  }
+  .search-box input {
+    width: 200px;
+    padding: 0.5rem;
+  }
+  
+  .car-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    background-color: #fff;
+  }
+  
+  .car-header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  
+  .car-badges {
+    display: flex;
+    gap: 0.5rem; 
+  }
+  .car-badge {
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    background-color: #007AFF; 
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  
+  .car-info {
+    flex: 1;
+    margin-left: 1rem;
+  }
+  .car-name {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 0.25rem;
+  }
+  .car-vin {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
+  .car-arrow {
+    font-size: 16px;
+    margin-left: 0.5rem;
+    color: #333;
+  }
+  
+  
+  .car-body {
+    border-top: 1px solid #e0e0e0;
+    padding: 1rem;
+  }
+  
+  
+  .car-step {
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  .step-date {
+    display: inline-block;
+    width: 100px; 
+    color: #999;
+    margin-right: 1rem;
+  }
+  .step-desc {
+    color: #333;
+  }
+  
+  
+  .empty-steps {
+    color: #999;
+    font-style: italic;
+  }
+  
