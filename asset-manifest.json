@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/frontCRM/static/css/main.8233ca5f.css",
-    "main.js": "/frontCRM/static/js/main.9cec46fe.js",
+    "main.css": "/frontCRM/static/css/main.d3d244e0.css",
+    "main.js": "/frontCRM/static/js/main.f76f4872.js",
     "static/js/488.c28ea027.chunk.js": "/frontCRM/static/js/488.c28ea027.chunk.js",
+    "static/media/SFPRODISPLAYBOLD.OTF": "/frontCRM/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/frontCRM/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/тесэкспресс 1.png": "/frontCRM/static/media/тесэкспресс 1.5ede99b158d17f36735e.png",
     "index.html": "/frontCRM/index.html",
-    "main.8233ca5f.css.map": "/frontCRM/static/css/main.8233ca5f.css.map",
-    "main.9cec46fe.js.map": "/frontCRM/static/js/main.9cec46fe.js.map",
+    "main.d3d244e0.css.map": "/frontCRM/static/css/main.d3d244e0.css.map",
+    "main.f76f4872.js.map": "/frontCRM/static/js/main.f76f4872.js.map",
     "488.c28ea027.chunk.js.map": "/frontCRM/static/js/488.c28ea027.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8233ca5f.css",
-    "static/js/main.9cec46fe.js"
+    "static/css/main.d3d244e0.css",
+    "static/js/main.f76f4872.js"
   ]
 }
